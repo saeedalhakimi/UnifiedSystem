@@ -1,0 +1,6 @@
+2025-05-27 11:46:35.217 +03:00 [INF] Now listening on: https://localhost:7137
+2025-05-27 11:46:35.273 +03:00 [INF] Now listening on: http://localhost:5167
+2025-05-27 11:46:35.360 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-27 11:46:35.361 +03:00 [INF] Hosting environment: Development
+2025-05-27 11:46:35.363 +03:00 [INF] Content root path: C:\Users\saeed\Desktop\DIV\UnifiedSystem\UnifiedSystem.APi
+2025-05-27 11:46:42.597 +03:00 [INF] Test API V1 endpoint hit at "2025-05-27T08:46:42.5967244Z"

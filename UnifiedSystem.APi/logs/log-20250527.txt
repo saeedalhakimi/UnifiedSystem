@@ -1,0 +1,5 @@
+2025-05-27 11:43:50 [INF] Now listening on: https://localhost:7137 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+2025-05-27 11:43:50 [INF] Now listening on: http://localhost:5167 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+2025-05-27 11:43:50 [INF] Application started. Press Ctrl+C to shut down. {"SourceContext":"Microsoft.Hosting.Lifetime"}
+2025-05-27 11:43:50 [INF] Hosting environment: Development {"SourceContext":"Microsoft.Hosting.Lifetime"}
+2025-05-27 11:43:50 [INF] Content root path: C:\Users\saeed\Desktop\DIV\UnifiedSystem\UnifiedSystem.APi {"SourceContext":"Microsoft.Hosting.Lifetime"}

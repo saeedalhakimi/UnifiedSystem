@@ -1,0 +1,12 @@
+2025-05-27 11:45:53.802 +03:00 [INF] Now listening on: https://localhost:7137
+2025-05-27 11:45:53.849 +03:00 [INF] Now listening on: http://localhost:5167
+2025-05-27 11:45:53.912 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-27 11:45:53.915 +03:00 [INF] Hosting environment: Development
+2025-05-27 11:45:53.919 +03:00 [INF] Content root path: C:\Users\saeed\Desktop\DIV\UnifiedSystem\UnifiedSystem.APi
+2025-05-27 11:46:02.740 +03:00 [INF] Test API V1 endpoint hit at "2025-05-27T08:46:02.7399969Z"
+2025-05-27 11:46:35 [INF] Now listening on: https://localhost:7137 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+2025-05-27 11:46:35 [INF] Now listening on: http://localhost:5167 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+2025-05-27 11:46:35 [INF] Application started. Press Ctrl+C to shut down. {"SourceContext":"Microsoft.Hosting.Lifetime"}
+2025-05-27 11:46:35 [INF] Hosting environment: Development {"SourceContext":"Microsoft.Hosting.Lifetime"}
+2025-05-27 11:46:35 [INF] Content root path: C:\Users\saeed\Desktop\DIV\UnifiedSystem\UnifiedSystem.APi {"SourceContext":"Microsoft.Hosting.Lifetime"}
+2025-05-27 11:46:42 [INF] Test API V1 endpoint hit at "2025-05-27T08:46:42.5967244Z" {"SourceContext":"UnifiedSystem.APi.Controllers.V1.TestController","ActionId":"cefaa0f0-6a86-48ca-b568-209e6d2483b4","ActionName":"UnifiedSystem.APi.Controllers.V1.TestController.Get (UnifiedSystem.APi)","RequestId":"0HNCSVC0G78PN:00000001","RequestPath":"/api/v1/test","ConnectionId":"0HNCSVC0G78PN"}
