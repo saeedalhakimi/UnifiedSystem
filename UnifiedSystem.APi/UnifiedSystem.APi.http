@@ -1,0 +1,6 @@
+@UnifiedSystem.APi_HostAddress = http://localhost:5167
+
+GET {{UnifiedSystem.APi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
