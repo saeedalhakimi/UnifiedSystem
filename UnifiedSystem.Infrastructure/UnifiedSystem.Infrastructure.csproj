@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UnifiedSystem.Application\UnifiedSystem.Application.csproj" />
+    <ProjectReference Include="..\UnifiedSystem.Domain\UnifiedSystem.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
