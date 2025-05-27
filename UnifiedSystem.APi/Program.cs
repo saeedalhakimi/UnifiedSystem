@@ -1,10 +1,27 @@
 using Asp.Versioning;
+using Serilog;
+using UnifiedSystem.APi.Middlewares;
+using UnifiedSystem.APi.Services;
+using UnifiedSystem.Application.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Configure Serilog
+builder.Host.UseSerilog((context, services, configuration) =>
+{
+    configuration
+        .ReadFrom.Configuration(context.Configuration)
+        .ReadFrom.Services(services)
+        .Enrich.FromLogContext()
+        .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day);
+});
 
+// Add services to the container.
 builder.Services.AddControllers();
+
+
+// Register IApiLogService
+builder.Services.AddSingleton<IApiLogService, ApiLogService>();
 
 // Versioning
 builder.Services.AddApiVersioning(options =>
@@ -32,6 +49,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+app.UseSerilogRequestLogging(); // Logs HTTP requests
+app.UseMiddleware<CorrelationIdMiddleware>();
 
 app.UseHttpsRedirection();
 
